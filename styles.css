@@ -8,10 +8,11 @@
 }
 
 #pagination .scroll-button {
-  height: 15px;
-  width: 15px;
+  height: 35px;
+  width: 35px;
   margin: 10px;
-  border: 2px solid white;
+  background-image: url('scroll_button_default.png');
+  background-size: contain;
   
   opacity: 0.5;
   transition: opacity .25s ease-in-out;
