@@ -13,6 +13,15 @@
 	</head>
 	
 	<body>
+		<div id="pagination">
+			<a class="scroll-button scroll-button-1" href="#france-surf-section"></a>
+			<a class="scroll-button scroll-button-2"></a>
+			<a class="scroll-button scroll-button-3"></a>
+			<a class="scroll-button scroll-button-4"></a>
+			<a class="scroll-button scroll-button-5"></a>
+			<a class="scroll-button scroll-button-6"></a>
+		</div>
+		
 		<div id='main-content'>
 		  <div id="top-section" class="fixed-background-section">
 		  	
@@ -29,8 +38,14 @@
 		</div>
 		
 		<script>
-			$(window).scroll(function() {
-				console.log("scrolled!"); 
+			$('a[href^="#"]').on('click', function(event) {
+		    var target = $(this.getAttribute('href'));
+		    if( target.length ) {
+	        event.preventDefault();
+	        $('html, body').stop().animate({
+            scrollTop: target.offset().top
+	        }, 1000);
+		    }
 			});
 		</script>
 	</body>
