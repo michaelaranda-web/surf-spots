@@ -11,7 +11,7 @@
   height: 35px;
   width: 35px;
   margin: 10px;
-  background-image: url('scroll_button_default.png');
+  background-image: url('/images/scroll_button_default.png');
   background-size: contain;
   
   opacity: 0.5;
@@ -26,27 +26,27 @@
 }
 
 #top-section { 
-  background-image: url('shotstash_surf.jpg');
+  background-image: url('/images/shotstash_surf.jpg');
 }
 
 #france-surf-section {
-  background-image: url('brittany-surf.jpg');
+  background-image: url('/images/brittany-surf.jpg');
 }
 
 #taiwan-surf-section {
-  background-image: url('taiwan-surf.jpg');
+  background-image: url('/images/taiwan-surf.jpg');
 }
 
 #south-africa-surf-section {
-  background-image: url('jeffreys-bay.jpg');
+  background-image: url('/images/jeffreys-bay.jpg');
 }
 
 #australia-surf-section {
-  background-image: url('gold-coast.jpg');
+  background-image: url('/images/gold-coast.jpg');
 }
 
 #brazil-surf-section {
-  background-image: url('florianopolis.jpg');
+  background-image: url('/images/florianopolis.jpg');
 }
 
 .divider-section { 

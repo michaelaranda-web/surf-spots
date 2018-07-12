@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<title>Surf Spots</title>
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"></script>
-		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="/css/styles.css">
 		<script
 		  src="https://code.jquery.com/jquery-3.3.1.min.js"
 		  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -61,16 +61,6 @@
 		  </div>
 		</div>
 		
-		<script>
-			$('a[href^="#"]').on('click', function(event) {
-		    var target = $(this.getAttribute('href'));
-		    if( target.length ) {
-	        event.preventDefault();
-	        $('html, body').stop().animate({
-            scrollTop: target.offset().top
-	        }, 1500);
-		    }
-			});
-		</script>
+		<script src="javascripts/scrolling.js"></script>
 	</body>
 </html>
