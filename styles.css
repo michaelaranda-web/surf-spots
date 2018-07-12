@@ -33,6 +33,22 @@
   background-image: url('brittany-surf.jpg');
 }
 
+#taiwan-surf-section {
+  background-image: url('taiwan-surf.jpg');
+}
+
+#south-africa-surf-section {
+  background-image: url('jeffreys-bay.jpg');
+}
+
+#australia-surf-section {
+  background-image: url('gold-coast.jpg');
+}
+
+#brazil-surf-section {
+  background-image: url('florianopolis.jpg');
+}
+
 .divider-section { 
   height: 100vh;
   background-color: white;
