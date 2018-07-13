@@ -11,6 +11,7 @@ h1 {
   padding-top: 30px;
   padding-right: 10px;
   padding-left: 55px;
+  margin: 0;
 }
 
 #top-section h1 {
@@ -92,6 +93,7 @@ h1 {
 
 #taiwan-surf-section {
   background-image: url('/images/taiwan-surf.jpg');
+  background-size: cover;
 }
 
 @media only screen and (max-width: 768px) {
@@ -132,7 +134,7 @@ h1 {
 
 .divider-section { 
   height: 50vh;
-  background-color: white;
+  background-color: #2f393e;
 }
 
 .fixed-background-section {
