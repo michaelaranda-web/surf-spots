@@ -1,12 +1,21 @@
+#side-nav-bar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.5;
+}
 
 #pagination {
   display: flex;
   flex-direction: column;
-  position: fixed;
-  top: 20%;
-  left: 25px;
-  background-color: black;
-  opacity: 0.5;
+}
+
+@media only screen and (max-width: 768px) {
+  #pagination {
+    margin-bottom: 60px;
+  }
 }
 
 #pagination .scroll-button {
