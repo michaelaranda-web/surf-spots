@@ -5,6 +5,7 @@ body {
 #main-content {
   max-width: 1200px;
   margin: 0 auto;
+  background-color: #2f393e;
 }
 
 h1 {
@@ -128,7 +129,8 @@ h1 {
 
 #brazil-surf-section {
   background-image: url('/images/florianopolis.jpg');
-  background-position: 20%;
+  background-position: 30%;
+  background-size: inherit;
 }
 
 @media only screen and (max-width: 768px) {
