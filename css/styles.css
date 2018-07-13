@@ -43,24 +43,60 @@
   background-image: url('/images/shotstash_surf.jpg');
 }
 
+@media only screen and (max-width: 768px) {
+  #top-section {
+    background-image: url('/images/shotstash_surf_mobile.jpg');
+  }
+}
+
 #france-surf-section {
   background-image: url('/images/brittany-surf.jpg');
+}
+
+@media only screen and (max-width: 768px) {
+  #france-surf-section {
+    background-image: url('/images/brittany-surf-mobile.jpg');
+  }
 }
 
 #taiwan-surf-section {
   background-image: url('/images/taiwan-surf.jpg');
 }
 
+@media only screen and (max-width: 768px) {
+  #taiwan-surf-section {
+    background-image: url('/images/taiwan-surf-mobile.jpg');
+  }
+}
+
 #south-africa-surf-section {
   background-image: url('/images/jeffreys-bay.jpg');
+}
+
+@media only screen and (max-width: 768px) {
+  #south-africa-surf-section {
+    background-image: url('/images/jeffreys-bay-mobile.jpg');
+  }
 }
 
 #australia-surf-section {
   background-image: url('/images/gold-coast.jpg');
 }
 
+@media only screen and (max-width: 768px) {
+  #australia-surf-section {
+    background-image: url('/images/gold-coast-mobile.jpg');
+  }
+}
+
 #brazil-surf-section {
   background-image: url('/images/florianopolis.jpg');
+}
+
+@media only screen and (max-width: 768px) {
+  #brazil-surf-section {
+    background-image: url('/images/florianopolis-mobile.jpg');
+  }
 }
 
 .divider-section { 
