@@ -18,7 +18,7 @@ function initializeScrollButtons() {
       event.preventDefault();
       $('html, body').stop().animate({
         scrollTop: target.offset().top
-      }, 1500);
+      }, 1000);
     }
   });
 }
