@@ -133,6 +133,9 @@ h1 {
 }
 
 .divider-section { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 50vh;
   background-color: #2f393e;
 }
@@ -151,5 +154,18 @@ h1 {
   }
 }
 
+.flag-icon {
+  height: 26px;
+  width: 39px;
+  margin: 0 auto;
+}
 
+.fa-arrow-down {
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+  margin: 0 auto;
+  height: 15px;
+  width: 15px;
+}
 
