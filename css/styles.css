@@ -1,3 +1,7 @@
+body {
+  background-color: #fffcf6;
+}
+
 #main-content {
   max-width: 1200px;
   margin: 0 auto;
@@ -130,6 +134,11 @@ h1 {
   #brazil-surf-section {
     background-image: url('/images/florianopolis-mobile.jpg');
   }
+}
+
+#footer-section { 
+  height: 180px;
+  background-color: #2f393e;
 }
 
 .divider-section { 
