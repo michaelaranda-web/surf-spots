@@ -173,7 +173,7 @@ h1 {
   background-color: #2f393e;
   display: inline-block;
   position: absolute;
-  opacity: 0.9;
+  opacity: 0.7;
   font-family: Oswald;
   padding: 35px 15px;
 }
@@ -199,40 +199,51 @@ h1 {
   width: 15px;
 }
 
-#top-section p {
-  max-width: 250px;
-  padding: 35px 15px;
-  bottom: 60px;
-  right: 85px;
+@media only screen and (min-width: 769px) {
+  #top-section p {
+    max-width: 250px;
+    bottom: 60px;
+    right: 85px;
+  }
+  
+  #france-surf-section p {
+    max-width: 250px;
+    bottom: 60px;
+    left: 85px;
+  }
+  
+  #taiwan-surf-section p {
+    max-width: 200px;
+    bottom: 90px;
+    left: 125px;
+  }
+  
+  #south-africa-surf-section p {
+    max-width: 200px;
+    bottom: 60px;
+    right: 85px;
+  }
+  
+  #australia-surf-section p {
+    max-width: 200px;
+    bottom: 90px;
+    left: 90px;
+  }
+  
+  #brazil-surf-section p {
+    max-width: 200px;
+    top: 90px;
+    right: 125px;
+  }
 }
 
-#france-surf-section p {
-  max-width: 250px;
-  padding: 35px 15px;
-  bottom: 60px;
-  left: 85px;
-}
-
-#taiwan-surf-section p {
-  max-width: 200px;
-  bottom: 90px;
-  left: 125px;
-}
-
-#south-africa-surf-section p {
-  max-width: 200px;
-  bottom: 60px;
-  right: 85px;
-}
-
-#australia-surf-section p {
-  max-width: 200px;
-  bottom: 90px;
-  left: 90px;
-}
-
-#brazil-surf-section p {
-  max-width: 200px;
-  top: 90px;
-  right: 125px;
+@media only screen and (max-width: 768px) {
+  .fixed-background-section p {
+    display: block;
+    position: absolute;
+    bottom: 15px;
+    margin: 0;
+    padding-left: 70px;
+    padding-right: 15px;
+  }
 }
