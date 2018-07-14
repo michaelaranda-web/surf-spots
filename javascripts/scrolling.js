@@ -8,7 +8,7 @@ var sections = [
 ];
     
 var activeSection = 1;
-const scrollIntoViewPixelBuffer = 175;
+const scrollIntoViewPixelBuffer = 300;
 
 function initializeScrollButtons() {  
   $('a[href^="#"]').on('click', function(event) {
