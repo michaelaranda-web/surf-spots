@@ -42,6 +42,7 @@ h1 {
   height: 100vh;
   background-color: black;
   opacity: 0.5;
+  z-index: 999;
 }
 
 #pagination {
@@ -153,6 +154,11 @@ h1 {
   background-color: #2f393e;
 }
 
+.fixed-container {
+  position: relative;
+  height: 100%;
+}
+
 .fixed-background-section {
   height: 100vh;
   background-position: center;
@@ -160,6 +166,16 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 800px;
+}
+
+.fixed-background-section p {
+  color: white;
+  background-color: #2f393e;
+  display: inline-block;
+  position: absolute;
+  opacity: 0.9;
+  font-family: Oswald;
+  padding: 35px 15px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -183,3 +199,40 @@ h1 {
   width: 15px;
 }
 
+#top-section p {
+  max-width: 250px;
+  padding: 35px 15px;
+  bottom: 60px;
+  right: 85px;
+}
+
+#france-surf-section p {
+  max-width: 250px;
+  padding: 35px 15px;
+  bottom: 60px;
+  left: 85px;
+}
+
+#taiwan-surf-section p {
+  max-width: 200px;
+  bottom: 90px;
+  left: 125px;
+}
+
+#south-africa-surf-section p {
+  max-width: 200px;
+  bottom: 60px;
+  right: 85px;
+}
+
+#australia-surf-section p {
+  max-width: 200px;
+  bottom: 90px;
+  left: 90px;
+}
+
+#brazil-surf-section p {
+  max-width: 200px;
+  top: 90px;
+  right: 125px;
+}
